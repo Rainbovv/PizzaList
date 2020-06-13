@@ -56,8 +56,8 @@ public class Pizza {
 
         if (isComplete())
             return String.format("%nPizza with %s dough, %s salt and %s oil.%nToppings " +
-                              ingredients.subList(3,ingredients.size()),
-                              ingredients.get(0), ingredients.get(1), ingredients.get(2));
+                                 ingredients.subList(3,ingredients.size()),
+                                 ingredients.get(0), ingredients.get(1), ingredients.get(2));
 
         return "Pizza is not complete!";
     }
